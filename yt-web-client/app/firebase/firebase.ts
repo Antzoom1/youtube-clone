@@ -8,6 +8,8 @@ import {
     User
 } from "firebase/auth";
 
+
+
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyCVCBsU3hR8MBpLZ7dJG11vSEc-Beibqio",
@@ -19,6 +21,10 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app)
+
+import { getFunctions } from "firebase/functions";
+
+export const functions = getFunctions(app);
 
 /**
  * Signs the user in with a Google popup.
