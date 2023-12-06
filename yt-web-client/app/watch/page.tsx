@@ -3,7 +3,7 @@
 import { useSearchParams } from 'next/navigation'
 
 export default function Watch() {
-  const videoPrefix = 'https://storage.googleapis.com/antzoom-yt-processed-videos/';
+  const videoPrefix = 'https://storage.googleapis.com/antzoom1-yt-processed-videos/';
   const videoSrc = useSearchParams().get('v');
 
   return (

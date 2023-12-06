@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "yt-clone-4d761"
-  }
+    "default": "fir-1a5e1",
+    "production": "fir-1a5e1"
+  },
+  "targets": {},
+  "etags": {}
 }
