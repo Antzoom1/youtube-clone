@@ -41,8 +41,12 @@ Handling limitations like maximum request timeouts and message redelivery in Clo
 Getting Started
 Instructions for setting up the project on your local machine.
 
-Clone the repository: git clone 
+Clone the repository: git clone
+
 CD into the yt-api-web-client directory: cd yt-api-web-client
+
 Install dependencies: npm install 
+
 Configure environment variables for cloud services.
+
 Run the application: npm start
