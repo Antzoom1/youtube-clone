@@ -39,7 +39,7 @@ Dynamic scaling of video processing workers based on workload.
 Handling limitations like maximum request timeouts and message redelivery in Cloud Run and Pub/Sub.
 
 Getting Started
-Instructions for setting up the project on your local machine.
+Instructions for setting up the project on your local machine:
 
 Clone the repository: git clone
 
